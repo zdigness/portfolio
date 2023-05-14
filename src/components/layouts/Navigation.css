@@ -1,0 +1,26 @@
+.navbar {
+  padding-left: 15px;
+}
+
+.navbar a {
+  max-width: 100px;
+  }
+
+.nav-item a {
+  display: flex;
+  justify-content: center;
+  margin: 4px 15px;
+  background-color: black;
+  border-radius: 12px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 12px;
+  }
+
+.nav-item:hover .nav-link {
+  color: aquamarine;
+  }
+
+.home {
+  height: 35px;
+}

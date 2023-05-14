@@ -1,24 +1,24 @@
 import homeIcon from '../img/home-svgrepo-com.svg'
 
 import React from "react";
-import { Navbar, Nav, Container } from "react-bootstrap";
-import { Link, Outlet } from "react-router-dom";
+import { Navbar, Nav} from "react-bootstrap";
+import { Link, Outlet} from "react-router-dom";
 
-import "./Navigation.module.css"
+import "./Navigation.css"
 
 export default function Navigation() {
     return (
         <>
         <div>
-            <Navbar bg="dark" variant={"dark"} expand="lg">
+            <Navbar bg="dark" variant={"dark"} expand="lg" className="mr-auto" >
             <Navbar.Brand>
                 <Link to = {"/"}>
-                    <img src={homeIcon} alt="Home" height="30px"/>
+                <img className="home" src={homeIcon} alt="Home"/>
                 </Link>
             </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
+                    <Nav className="mr-auto">
                     <Nav.Item>
                         <Nav.Link as={Link} to={"/education"}>Education</Nav.Link>
                     </Nav.Item>
