@@ -1,4 +1,19 @@
-.mybutton:hover {
+body {
+    min-height: 100%;
+    margin: 0;
+    background-color: #F0EAD6;
+}
+
+.start {
+    text-align: center;
+    padding: 10px;
+}
+
+.homepage {
+    color: black
+}
+
+.welcome:hover {
     animation-name: rotate;
     animation-duration: 0.7s;
 }

@@ -1,20 +1,14 @@
 import React from "react";
 
+// why is this one an arrow function?
 const AboutPage = () => {
   return (
     <section id="about">
-      <div>
-        <h1>About Me</h1>
-        <div> 
-          <img className="me" src="../img/me.svg" alt="me.png"/>
-        </div>
-        <div>
-          <h2>How I started</h2>
-          <p></p>
-          <h2>Where I'm Headed</h2>
-          <p></p>
-        </div>
-      </div>
+    <div>
+      <h1>About Me</h1>
+      <h2>How I started</h2>
+      <h2>Where I'm Headed</h2>
+    </div>
     </section>
   );
 };

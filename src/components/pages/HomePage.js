@@ -1,10 +1,11 @@
 import "./HomePage.css"
+import BasicTimeline from "../layouts/Timeline";
 
 export default function Home() {
-    return(
-        <div>
-            <h1 className="homepage">Home Page</h1>
-            <button className="mybutton">HI</button>
-        </div>
+    return (
+            <div className="start">
+                <BasicTimeline></BasicTimeline>
+                <button className="welcome">Welcome!</button>
+            </div>
     );
 }
