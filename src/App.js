@@ -10,6 +10,8 @@ import ExperiencePage from "./components/pages/ExperiencePage";
 import EducationPage from "./components/pages/EducationPage";
 import ContactPage from "./components/pages/ContactPage";
 
+import "./App.css"
+
 const router = createBrowserRouter([
   {
     element: <Navigation />,
@@ -40,7 +42,7 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <RouterProvider router={router}/>
+      <RouterProvider router={router}/>
   );
 }
 

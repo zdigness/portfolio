@@ -1,11 +1,16 @@
 import "./HomePage.css"
-import BasicTimeline from "../layouts/Timeline";
+import BasicBox from "../layouts/ProjectBox"
 
 export default function Home() {
     return (
             <div className="start">
-                <BasicTimeline></BasicTimeline>
-                <button className="welcome">Welcome!</button>
+                <p>My Work</p>
+                <div className="grid-even-columns">
+                    <BasicBox className="box"></BasicBox>
+                    <BasicBox className="box"></BasicBox>
+                    <BasicBox className="box"></BasicBox>
+                    <BasicBox className="box"></BasicBox>
+                </div>
             </div>
     );
 }

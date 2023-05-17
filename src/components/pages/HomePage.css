@@ -1,16 +1,20 @@
-body {
-    min-height: 100%;
-    margin: 0;
-    background-color: #F0EAD6;
+.grid-even-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    gap: 1rem;
+    height: 100%;
 }
 
 .start {
     text-align: center;
+    color: #FFFFFF;
     padding: 10px;
+    height: 100%;
 }
 
-.homepage {
-    color: black
+.box {
+    height: 100%;
 }
 
 .welcome:hover {
