@@ -1,16 +1,29 @@
-.grid-even-columns {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50% 50%;
-    gap: 1rem;
+html,
+body {
     height: 100%;
+    width: 100%;
 }
 
 .start {
     text-align: center;
     color: #FFFFFF;
-    padding: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
     height: 100%;
+}
+
+.project-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+
+    list-style-type: none;
+}
+
+.project-grid li {
+
 }
 
 .box {
