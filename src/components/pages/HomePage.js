@@ -1,16 +1,22 @@
 import "./HomePage.css"
-import BasicBox from "../layouts/ProjectBox"
+import ProjectBox from "../layouts/ProjectBox"
+import AboutMe from "../pages/AboutPage"
 
 export default function Home() {
     return (
-            <div class="start">
-                <p>My Work</p>
+        <div>
+            <div>
+                <AboutMe></AboutMe>
+            </div>
+            <div class="projects">
+                <p>My Projects</p>
                 <div class="project-grid">
-                    <li><BasicBox className="box"></BasicBox></li>
-                    <li><BasicBox className="box"></BasicBox></li>
-                    <li><BasicBox className="box"></BasicBox></li>
-                    <li><BasicBox className="box"></BasicBox></li>
+                    <li><ProjectBox className="box"></ProjectBox></li>
+                    <li><ProjectBox className="box"></ProjectBox></li>
+                    <li><ProjectBox className="box"></ProjectBox></li>
+                    <li><ProjectBox className="box"></ProjectBox></li>
                 </div>
             </div>
+        </div>
     );
 }

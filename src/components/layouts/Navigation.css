@@ -1,9 +1,14 @@
 .navbar {
   padding-left: 15px;
+  position: fixed;
+  background-color: #121212;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
 }
 
 .navbar a {
-  max-width: 100px;
+  max-width: 150px;
   color: #B3B3B3;
   }
 

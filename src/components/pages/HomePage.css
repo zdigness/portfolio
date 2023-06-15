@@ -2,44 +2,44 @@ html,
 body {
     height: 100%;
     width: 100%;
+    padding-top: 30px;
 }
 
-.start {
+.projects {
     text-align: center;
     color: #FFFFFF;
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
+    padding: 30px;
     height: 100%;
 }
 
 .project-grid {
     display: grid;
-    gap: 2rem;
+    gap: 3rem;
     grid-template-columns: 1fr 1fr;
 
     list-style-type: none;
 }
 
-.project-grid li {
-
+.project-grid li:nth-child(1) {
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
 
-.box {
-    height: 100%;
+.project-grid li:nth-child(2) {
+    display: flex;
+    justify-content: start;
+    align-items: start;
 }
 
-.welcome:hover {
-    animation-name: rotate;
-    animation-duration: 0.7s;
+.project-grid li:nth-child(3) {
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
 
-@keyframes rotate {
-    0% {
-        transform: rotate(0);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+.project-grid li:nth-child(4) {
+    display: flex;
+    justify-content: start;
+    align-items: start;
 }

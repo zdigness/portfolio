@@ -1,6 +1,6 @@
 import homeIcon from '../img/home-svgrepo-com.svg'
 
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link, Outlet } from "react-router-dom";
 
@@ -20,13 +20,13 @@ export default function Navigation() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                     <Nav.Item className="link">
-                        <Nav.Link as={Link} to={"/education"}>Education</Nav.Link>
+                        <Nav.Link as={Link} to={"/education"}>About</Nav.Link>
                     </Nav.Item>
                     <Nav.Item className="link">
-                        <Nav.Link as={Link} to={"/experience"}>Experience</Nav.Link>
+                        <Nav.Link as={Link} to={"/experience"}>Skills</Nav.Link>
                     </Nav.Item>
                     <Nav.Item className="link">
-                        <Nav.Link as={Link} to={"/about"}>About</Nav.Link>
+                        <Nav.Link as={Link} to={"/about"}>Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item className="link">
                         <Nav.Link as={Link} to={"/contact"}>Contact</Nav.Link>
