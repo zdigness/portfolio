@@ -1,4 +1,31 @@
 .education {
-    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.education li {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-icon {
+    height: 128px;
+    width: 128px;
+}
+
+.python-icon {
+    height: 128px;
+    width: 128px;
 }

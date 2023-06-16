@@ -9,7 +9,7 @@ export default function AboutPage() {
   return (
     <div class="about">
       <div class="description">
-        <h1>Hello! I'm Zoli, a full stack developer.</h1>
+        <h1>Hello! I'm Zoli, a full stack developer. 👋</h1>
       </div>
       <div class="links">
         <img class="link-icon" src={github} alt="Icon"></img>
