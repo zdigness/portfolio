@@ -1,13 +1,46 @@
 .education {
     display: grid;
     justify-content: center;
-    align-items: center;
+    align-items: first baseline;
     padding: 10px;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+.skill-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    border-style: solid;
+    border-color: #EFDCAC;
+    border-radius: 15px;
+    background-color: #FEFAE0;
+    min-height: 544px;
+}
+
+.skill-box li {
+    margin: 10px;
+}
+
+.backend {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.databases {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
 }
 
 .text {
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;

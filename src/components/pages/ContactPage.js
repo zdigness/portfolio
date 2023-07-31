@@ -1,7 +1,17 @@
+import "./ContactPage.css"
+
 export default function ContactPage() {
     return (
-      <div>
-        <h1>Contact Page</h1>
+      <div class="contact">
+        <form>
+        <label class="label">Name</label>
+        <input type="text" class="form-input" name="name"/>
+        <label class="label">Email</label>
+        <input type="text" class="form-input" name="email"/>
+        <label class="label">Message</label>
+        <input type="text" class="message-input" name="message" />
+        <input type="submit" class="submit-button" value="Submit" />
+        </form>
       </div>
     );
   }
