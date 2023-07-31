@@ -5,7 +5,7 @@ body {
     padding-top: 30px;
 }
 
-p {
+h1 {
     color: black;
 }
 
@@ -19,6 +19,7 @@ p {
 
 .skills {
     height: 100vh;
+    scroll-margin-top: 50px;
 }
 
 .projects {
@@ -29,6 +30,7 @@ p {
     text-align: center;
     color: #FFFFFF;
     height: 100vh;
+    gap: 10px;
 }
 
 .project-grid {
@@ -65,8 +67,9 @@ p {
 
 .about-section {
     height: 100vh;
+    scroll-margin-top: 200px;
 }
 
 .contact {
-    padding-top: 150px;
+    height: 100vh;
 }

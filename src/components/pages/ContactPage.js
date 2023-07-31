@@ -3,6 +3,7 @@ import "./ContactPage.css"
 export default function ContactPage() {
     return (
       <div class="contact">
+        <h1>Contact Me</h1>
         <form>
         <label class="label">Name</label>
         <input type="text" class="form-input" name="name"/>

@@ -1,7 +1,7 @@
 .navbar {
   padding-left: 15px;
   position: fixed;
-  background-color: #121212;
+  background-color: white;
   top: 0;
   z-index: 1000;
   width: 100%;
@@ -9,11 +9,15 @@
 
 .navbar a {
   max-width: 150px;
-  color: #B3B3B3;
+  color: black;
   }
 
+.navbar a:hover {
+  color: white;
+}
+
 .link {
-  background-image: linear-gradient(white, white);
+  background-image: linear-gradient(black, black);
   background-size: 0 100%;
   background-repeat: no-repeat;
   transition: .4s;
@@ -24,7 +28,6 @@
 }
 
 .home {
-  height: 35px;
 }
 
 .home:hover {

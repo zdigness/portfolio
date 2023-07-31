@@ -14,7 +14,7 @@ export default function Home() {
                 <Skills></Skills>
             </div>
             <div className="projects" id="projects">
-                <p>My Projects</p>
+                <h1>My Projects</h1>
                 <div class="project-grid">
                     <li><ProjectBox className="box"></ProjectBox></li>
                     <li><ProjectBox className="box"></ProjectBox></li>

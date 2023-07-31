@@ -1,4 +1,4 @@
-import homeIcon from '../img/home-svgrepo-com.svg'
+import homeIcon from '../img/zd.png'
 
 import React, {useState, useEffect} from "react";
 import { Navbar, Nav } from "react-bootstrap";
@@ -13,11 +13,6 @@ export default function Navigation() {
         <>
         <div>
             <Navbar expand="sm">
-            <Navbar.Brand>
-                <HashLink to = {"/"}>
-                <img className="home" src={homeIcon} alt="Home"/>
-                </HashLink>
-            </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">

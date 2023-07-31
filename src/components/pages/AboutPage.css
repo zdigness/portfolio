@@ -3,11 +3,26 @@
 .about {
     height: 50%;
     display: flex;
+    padding: 10px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    gap: 50px;
+}
+
+.about li:nth-child(1) {
+    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    padding: 10px;
+}
+
+.about li:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
 }
 
 .link-icon {
@@ -15,20 +30,49 @@
     width: 32px;
 }
 
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-s {
+    border-style: solid;
+    border-color: #45462A;
+    border-radius: 10px;
+    background-color: #606C38;
+    width: 40%;
+}
+
+p {
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+h3 {
+    margin: 5px;
+    margin-left: 30px;
+    text-decoration: underline;
+    text-decoration-color: #45462A;
+}
+
 .links {
     padding: 10px;
     display: flex;
     justify-content: center;
-    gap: 10px;
-}
-
-.description {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
 }
