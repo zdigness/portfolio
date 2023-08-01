@@ -35,10 +35,7 @@ export default function Home() {
             <div class="projects hidden" id="projects">
                 <h1 class="project-title">My Work</h1>
                 <div class="project-grid">
-                    <li><ProjectBox className="box"></ProjectBox></li>
-                    <li><ProjectBox className="box"></ProjectBox></li>
-                    <li><ProjectBox className="box"></ProjectBox></li>
-                    <li><ProjectBox className="box"></ProjectBox></li>
+                    <a href="https://github.com/yungzol/cmpt-353-project"><li><ProjectBox className="box"></ProjectBox></li></a>
                 </div>
             </div>
             <div class="contact hidden" id="contact">

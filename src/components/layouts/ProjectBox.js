@@ -2,7 +2,7 @@ import React from "react";
 
 import "./ProjectBox.css"
 
-import icon from '../img/background-2.png'
+import icon from '../img/353-project.png'
 
 export default function BasicBox() {
     return (

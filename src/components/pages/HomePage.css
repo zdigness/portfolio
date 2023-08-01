@@ -18,7 +18,9 @@ h1 {
 }
 
 .about-section {
-    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
     padding-top: 250px;
     scroll-margin-top: 200px;
     margin-top: 75px;
@@ -33,7 +35,8 @@ h1 {
 }
 
 .projects {
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 200px;
     padding-bottom: 100px;
     padding-left: 400px;
     padding-right: 400px;
@@ -48,21 +51,27 @@ h1 {
 }
 
 .contact {
-    padding: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin-bottom: 50px;
 }
 
-.project-grid {
+.project-grid a{
     display: grid;
+    justify-items: center;
     gap: 3rem;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     list-style-type: none;
 }
 
 .project-grid li:nth-child(1) {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    /* border: solid;
+    border-color: forestgreen;
+    width: 500px; */
 }
 
 .project-grid li:nth-child(2) {
