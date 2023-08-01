@@ -1,10 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 .education {
     display: grid;
     justify-content: center;
-    align-items: first baseline;
+    align-items: stretch;
     padding: 10px;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 30px;
+    grid-template-rows: 1fr;
+    width: 100%;
+}
+
+.main-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
 }
 
 .skill-box {
@@ -13,15 +24,45 @@
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
-    border-style: solid;
-    border-color: #EFDCAC;
-    border-radius: 15px;
-    background-color: #FEFAE0;
-    min-height: 544px;
+    /* border-style: solid; */
+    /* border-color: #45462A;
+    background-color: whitesmoke; */
+    border-right: solid;
+    border-width: 1px;
 }
 
-.skill-box li {
+.skill-box-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    /* border-style: solid; */
+    /* border-color: #45462A;
+    background-color: whitesmoke; */
+}
+
+.skill-box li, .skill-box-3 li {
     margin: 10px;
+}
+
+.skill-box li h1, .skill-box-3 li h1{
+    font-size: 30px;
+    /* text-decoration: underline;
+    text-decoration-color: black;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 1px; */
+}
+
+.skill-section-disc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-section-disc li h1 {
+    font-size: 20px;
 }
 
 .backend {
@@ -40,11 +81,29 @@
 }
 
 .text {
-    color: black;
     display: flex;
+    flex-direction: column;
+    color: black;
     justify-content: center;
     align-items: center;
     padding: 10px;
+    /* border-color: #CEC8BC;
+    background-color: #8C8477; */
+    border-radius: 60px;
+    width: 60%;
+}
+
+.text h1 {
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-underline-offset: 5px;
+    /* color: #EAE4D6 */
+}
+
+.text h2 {
+    font-size: 20px;
+    /* color: #EAE4D6 */
 }
 
 .education li {
@@ -53,12 +112,16 @@
     align-items: center;
 }
 
-.skill-icon {
-    height: 128px;
-    width: 128px;
+/* .skill-icon {
+
+} */
+
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
 }
 
-.python-icon {
-    height: 128px;
-    width: 128px;
+h2 {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
 }

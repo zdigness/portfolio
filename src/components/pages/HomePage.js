@@ -33,7 +33,7 @@ export default function Home() {
                 <Skills></Skills>
             </div>
             <div class="projects hidden" id="projects">
-                <h1>My Projects</h1>
+                <h1 class="project-title">My Work</h1>
                 <div class="project-grid">
                     <li><ProjectBox className="box"></ProjectBox></li>
                     <li><ProjectBox className="box"></ProjectBox></li>

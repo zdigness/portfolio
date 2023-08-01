@@ -4,7 +4,6 @@ import linkedin from '../img/linkedin.svg'
 
 import "./AboutPage.css"
 
-// why is this one an arrow function?
 export default function AboutPage() {
   return (
     <div class="about">
