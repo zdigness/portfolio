@@ -3,17 +3,36 @@ import ProjectBox from "../layouts/ProjectBox"
 import AboutMe from "../pages/AboutPage"
 import Skills from "../pages/EducationPage"
 import ContactForm from "../pages/ContactPage"
+import { useEffect } from "react"
 
 export default function Home() {
+    useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            console.log(entry)
+            if (entry.isIntersecting) {
+                entry.target.classList.remove('hidden');
+                entry.target.classList.add('show');
+            } else {
+                entry.target.classList.remove('show');
+                entry.target.classList.add('hidden');
+            }
+        });
+    });
+
+    const hiddenElements = document.querySelectorAll('.hidden');
+    hiddenElements.forEach((el) => observer.observe(el))
+})
+
     return (
-        <div className="main">
-            <div className="about-section" id="about">
+        <div class="main">
+            <div class="about-section hidden" id="about">
                 <AboutMe></AboutMe>
             </div>
-            <div className="skills" id="skills">
+            <div class="skills hidden" id="skills">
                 <Skills></Skills>
             </div>
-            <div className="projects" id="projects">
+            <div class="projects hidden" id="projects">
                 <h1>My Projects</h1>
                 <div class="project-grid">
                     <li><ProjectBox className="box"></ProjectBox></li>
@@ -22,7 +41,7 @@ export default function Home() {
                     <li><ProjectBox className="box"></ProjectBox></li>
                 </div>
             </div>
-            <div className="contact" id="contact">
+            <div class="contact hidden" id="contact">
                 <ContactForm></ContactForm>
             </div>
         </div>

@@ -14,13 +14,12 @@ export default function AboutPage() {
       <li><div className="about-s">
         <h3>About</h3>
         <p>I became passionate about coding in 2019 and have completed my 4 year Computer Science B.Sc. 
-        at The University of Saskatchewan
-        My focus is now on creating responsive, optimized, and complete software growing as
-        a programmer.
+        at The University of Saskatchewan.
+        My focus is now on creating responsive, optimized, and complete software.
         </p>
         <div className="links">
-        <img class="link-icon" src={github} alt="Icon"></img>
-        <img class="link-icon" src={linkedin} alt="Icon"></img>
+        <a href="https://github.com/yungzol"><img class="link-icon" src={github} alt="Icon"></img></a>
+        <a href="https://www.linkedin.com/in/zoli-digness-326256248/"><img class="link-icon" src={linkedin} alt="Icon"></img></a>
         </div>
       </div></li>
     </div>
