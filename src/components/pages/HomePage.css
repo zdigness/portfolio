@@ -35,9 +35,7 @@ h1 {
 }
 
 .projects {
-    margin-top: 100px;
-    margin-bottom: 200px;
-    padding-bottom: 100px;
+    margin-bottom: 220px;
     padding-left: 400px;
     padding-right: 400px;
     display: flex;
@@ -47,7 +45,7 @@ h1 {
     text-align: center;
     color: #FFFFFF;
     gap: 50px;
-    scroll-margin-top: 200px;
+    scroll-margin-top: 250px;
 }
 
 .contact {
@@ -104,5 +102,5 @@ h1 {
 
 .show {
     opacity: 1;
-    transition: all 2s;
+    transition: all 1s;
 }
