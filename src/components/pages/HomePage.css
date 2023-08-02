@@ -57,12 +57,10 @@ h1 {
     margin-bottom: 50px;
 }
 
-.project-grid a{
+.project-grid a {
     display: grid;
     justify-items: center;
-    gap: 3rem;
-    grid-template-columns: 1fr;
-    list-style-type: none;
+    align-items: center;
 }
 
 .project-grid li:nth-child(1) {

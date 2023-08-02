@@ -9,13 +9,14 @@ import code from '../img/code.png'
 import database from '../img/database.png'
 import mongodb from '../img/mongodb.png'
 import mysql from '../img/mysql.png'
+import node from '../img/node.png'
 
 export default function EducationPage() {
     return (
       <div class='main-skills'>
         <div className="text">
         <h1>Skills</h1>
-        <h2>Technologies i'm proficient with.</h2>
+        <h2>Technologies i've worked with.</h2>
         </div>
         <div className="education">
           <div className="skill-box">
@@ -34,6 +35,7 @@ export default function EducationPage() {
             </div>
             <li><img class="skill-icon" src={python} alt="Icon"></img></li>
             <li><img class="skill-icon" src={js} alt="Icon"></img></li>
+            <li><img class="skill-icon" src={node} alt="Icon"></img></li>
           </div>
           <div className="skill-box-3">
           <div class="skill-section-disc">

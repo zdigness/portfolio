@@ -2,11 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: #606C38;
     width: 50%;
-    height: 102%;
 }
 
 .project-icon {
     width: 98%;
+    height: 96%;
+    display: block;
+    text-align: center;
 }
