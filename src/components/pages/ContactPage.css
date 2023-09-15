@@ -3,10 +3,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 form {
     display: grid;
+    justify-items: center;
+    gap: 5px;
 }
 
 .label {
@@ -17,16 +20,35 @@ form {
     margin-bottom: 10px;
     margin-top: 5px;
     width: 500px;
+    resize: none;
+    height: 30px;
+    padding: 10px;
 }
 
 .message-input {
-    height: 250px;
+    height: 200px;
     margin-top: 5px;
     margin-bottom: 10px;
+    resize: none;
+    padding: 10px;
+    width: 500px;
 }
 
 .submit-button {
-    margin: 10px;
-    width: 100px;
-    justify-self: center;
+    background-color: #4CAF50;
+    width: 50%;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 4px 2px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.submit-button:hover {
+    background-color: #3e8e41;
+    color: white;
 }

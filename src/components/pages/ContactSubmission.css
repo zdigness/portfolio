@@ -1,0 +1,50 @@
+body {
+    background-color: beige;
+}
+
+.confirmation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding-bottom: 100px;
+}
+
+.check-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.thank {
+    font-size: 2.5rem;
+}
+
+.received {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+
+.home-link {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.home-link:hover {
+    background-color: #3e8e41;
+    color: white;
+}
