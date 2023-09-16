@@ -6,7 +6,7 @@ import "./AboutPage.css"
 
 export default function AboutPage() {
   return (
-    <div class="about">
+    <container class="about">
       <li><div className="intro">
         <h2>Hello! I'm Zoli, a full stack developer. 👋</h2>
       </div></li>
@@ -21,6 +21,6 @@ export default function AboutPage() {
         <a href="https://www.linkedin.com/in/zoli-digness-326256248/"><img class="link-icon" src={linkedin} alt="Icon"></img></a>
         </div>
       </div></li>
-    </div>
+    </container>
   );
 };

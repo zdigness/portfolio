@@ -13,7 +13,7 @@ import node from '../img/node.png'
 
 export default function EducationPage() {
     return (
-      <div class='main-skills'>
+      <container class='main-skills'>
         <div className="text">
         <h1>Skills</h1>
         <h2>Technologies i've worked with.</h2>
@@ -46,6 +46,6 @@ export default function EducationPage() {
             <li><img class="skill-icon" src={mysql} alt="Icon"></img></li>
           </div>
         </div>
-      </div>
+      </container>
     );
   }

@@ -1,8 +1,6 @@
-import homeIcon from '../img/zd.png'
-
-import React, {useState, useEffect} from "react";
+import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 import { HashLink } from 'react-router-hash-link';
 

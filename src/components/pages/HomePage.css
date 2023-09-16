@@ -9,12 +9,20 @@ h1 {
 }
 
 .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    /*
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    width: auto;
     gap: 150px;
     padding-top: 30px;
+    width: 100%;
+    */
 }
 
 .about-section {
@@ -27,8 +35,9 @@ h1 {
 }
 
 .skills {
-    padding-left: 500px;
-    padding-right: 500px;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
     margin-bottom: 200px;
     scroll-margin-top: 200px;
     margin-top: 50px;
@@ -36,8 +45,8 @@ h1 {
 
 .projects {
     margin-bottom: 220px;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 10%;
+    padding-right: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;

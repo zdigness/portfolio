@@ -16,6 +16,7 @@
     align-items: center;
     justify-content: space-evenly;
     gap: 30px;
+    width: 100%;
 }
 
 .skill-box {
@@ -90,7 +91,7 @@
     /* border-color: #CEC8BC;
     background-color: #8C8477; */
     border-radius: 60px;
-    width: 60%;
+    width: 100%;
 }
 
 .text h1 {

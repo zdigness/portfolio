@@ -25,7 +25,7 @@ export default function Home() {
 })
 
     return (
-        <div class="main">
+        <container class="main">
             <div class="about-section hidden" id="about">
                 <AboutMe></AboutMe>
             </div>
@@ -41,6 +41,6 @@ export default function Home() {
             <div class="contact hidden" id="contact">
                 <ContactForm></ContactForm>
             </div>
-        </div>
+        </container>
     );
 }

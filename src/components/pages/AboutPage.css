@@ -2,6 +2,7 @@
 
 .about {
     height: 50%;
+    width: 100%;
     display: flex;
     padding: 10px;
     list-style-type: none;
@@ -38,12 +39,19 @@
     gap: 20px;
 }
 
+@media screen and (max-width: 768px) {
+    .intro {
+        font-size: 10px;
+    }
+}
+
 .about-s {
     border-style: solid;
     border-color: #45462A;
     border-radius: 10px;
     background-color: #606C38;
-    width: 40%;
+    max-width: 600px;
+    width: 100%;
 }
 
 p {
