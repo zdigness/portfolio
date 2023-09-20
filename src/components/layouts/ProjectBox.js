@@ -25,7 +25,7 @@ export default function BasicBox() {
                 <img className="tech-icon" src={django} alt="Icon"></img>
                 <img className="tech-icon" src={python} alt="Icon"></img>
                 <img className="tech-icon" src={mysql} alt="Icon"></img>
-                <button type="button" class="btn btn-primary">GitHub</button>
+                <a href="https://github.com/zdigness/personal_finance"><button type="button" class="btn btn-primary">GitHub</button></a>
                 </div>
                 </div>
         </div>

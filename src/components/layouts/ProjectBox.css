@@ -21,8 +21,8 @@
 }
 
 .btn-primary {
-    background-color: #606C38;
-    border-color: #606C38;
+    background-color: #4CAF50;
+    border-color: #4CAF50;
     margin-left: 50px;
     font-size: 20px;
     color: #FEFAE0;
@@ -31,8 +31,8 @@
 }
 
 .btn-primary:hover {
-    background-color: #45462A;
-    border-color: #45462A;
+    background-color: #3e8e41;
+    border-color: #3e8e41;
     color: #FEFAE0;
 }
 

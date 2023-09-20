@@ -34,6 +34,7 @@ export default function Home() {
             </div>
             <div class="projects hidden" id="projects">
                 <h1 class="project-title">My Work</h1>
+                <p className="project-p">Projects I have developed and maintained.</p>
                 <div class="project-grid">
                     <li><ProjectBox className="box"></ProjectBox></li>
                 </div>

@@ -22,15 +22,18 @@
   background-size: 0 100%;
   background-repeat: no-repeat;
   transition: .4s;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .link:hover {
   background-size: 100% 100%;
 }
 
-.home {
-}
-
-.home:hover {
-  transform: scale(1.1)
+@media (max-width: 575px) {
+  .link {
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }

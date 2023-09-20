@@ -103,7 +103,8 @@
 }
 
 .text h2 {
-    font-size: 20px;
+    font-size: 16px;
+    font-style: italic;
     /* color: #EAE4D6 */
 }
 
