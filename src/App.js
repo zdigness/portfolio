@@ -11,10 +11,11 @@ import "./App.css"
 
 const router = createBrowserRouter([
   {
+    path: "zolidigness.me/",
     element: <Navigation />,
     children: [
       {
-        path: "/zolidigness.me",
+        path: "",
         element: <Home />,
       },
     ]
@@ -23,19 +24,16 @@ const router = createBrowserRouter([
     element: <ContactSubmission />,
     children: [
       {
-        path: "/contact-submission",
+        path: "zolidigness.me/contact-submission",
         element: <ContactSubmission />,
       },
     ]
   },
-  {
-    basename : window.location.pathname || '',
-  }
 ]);
 
 function App() {
   return (
-      <RouterProvider router={router} basename={window.location.pathname || ''}/>
+      <RouterProvider router={router}/>
   );
 }
 
