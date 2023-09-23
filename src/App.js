@@ -27,12 +27,15 @@ const router = createBrowserRouter([
         element: <ContactSubmission />,
       },
     ]
+  },
+  {
+    basename: window.location.pathname || '',
   }
 ]);
 
 function App() {
   return (
-      <RouterProvider router={router} basename={window.location.pathname || ''}/>
+      <RouterProvider router={router} />
   );
 }
 
