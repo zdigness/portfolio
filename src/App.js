@@ -9,13 +9,13 @@ import ContactSubmission from "./components/pages/ContactSubmission";
 
 import "./App.css"
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+[
   {
-    path: "zolidigness.me/",
     element: <Navigation />,
     children: [
       {
-        path: "",
+        path: "/",
         element: <Home />,
       },
     ]
@@ -24,12 +24,14 @@ const router = createBrowserRouter([
     element: <ContactSubmission />,
     children: [
       {
-        path: "zolidigness.me/contact-submission",
+        path: "/contact-submission",
         element: <ContactSubmission />,
       },
     ]
   },
-]);
+],
+{basename: window.location.pathname || ''}
+);
 
 function App() {
   return (
