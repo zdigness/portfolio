@@ -11,6 +11,9 @@ import "./App.css"
 
 const router = createBrowserRouter([
   {
+    basename: window.location.pathname || '',
+  },
+  {
     element: <Navigation />,
     children: [
       {
@@ -28,9 +31,6 @@ const router = createBrowserRouter([
       },
     ]
   },
-  {
-    basename: window.location.pathname || '/',
-  }
 ]);
 
 function App() {
