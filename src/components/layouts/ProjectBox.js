@@ -3,8 +3,6 @@ import React from "react";
 import "./ProjectBox.css"
 
 import icon from '../img/budget.jpg'
-import github from '../img/github.png'
-import live from '../img/live.png'
 import django from '../img/django-green.png'
 import python from '../img/python-png.png'
 import mysql from '../img/mysql.png'
