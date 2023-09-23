@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./ProjectBox.css"
+import "../css/projects.css"
 
 import icon from '../img/budget.jpg'
 import django from '../img/django-green.png'

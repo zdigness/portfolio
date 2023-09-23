@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 import { HashLink } from 'react-router-hash-link';
 
-import "./Navigation.css"
+import "../css/nav.css"
 
 export default function Navigation() {
     return (

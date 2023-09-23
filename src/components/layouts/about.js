@@ -2,7 +2,7 @@ import React from "react";
 import github from '../img/github.svg'
 import linkedin from '../img/linkedin.svg'
 
-import "./AboutPage.css"
+import "../css/about.css"
 
 export default function AboutPage() {
   return (

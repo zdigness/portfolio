@@ -1,4 +1,5 @@
-import "./EducationPage.css"
+import "../css/skills.css"
+
 import python from '../img/python-png.png'
 import css from '../img/css.png'
 import html from '../img/html-png.png'

@@ -1,8 +1,9 @@
-import "./HomePage.css"
-import ProjectBox from "../layouts/ProjectBox"
-import AboutMe from "../pages/AboutPage"
-import Skills from "../pages/EducationPage"
-import ContactForm from "../pages/ContactPage"
+import "../css/HomePage.css"
+
+import ProjectBox from "../layouts/projects"
+import AboutMe from "../layouts/about"
+import Skills from "../layouts/skills"
+import ContactForm from "../layouts/contact"
 import { useEffect } from "react"
 
 export default function Home() {

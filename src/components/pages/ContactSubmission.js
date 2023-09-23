@@ -1,4 +1,4 @@
-import "./ContactSubmission.css"
+import "../css/ContactSubmission.css"
 
 import checkmark from "../img/checkmark.png"
 
