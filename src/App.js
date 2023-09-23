@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     element: <Navigation />,
     children: [
       {
-        path: "/",
+        path: "/zolidigness.me/",
         element: <Home />,
       },
     ]
