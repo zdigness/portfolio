@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import React from "react";
-import {RouterProvider, createBrowserRouter} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 
 import Navigation from "./components/layouts/Navigation";
 import Home from "./components/pages/HomePage";
@@ -9,33 +9,14 @@ import ContactSubmission from "./components/pages/ContactSubmission";
 
 import "./App.css"
 
-const router = createBrowserRouter(
-[
-  {
-    element: <Navigation />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-    ]
-  },
-  {
-    element: <ContactSubmission />,
-    children: [
-      {
-        path: "/contact-submission",
-        element: <ContactSubmission />,
-      },
-    ]
-  },
-],
-{basename: window.location.pathname || ''}
-);
-
 function App() {
   return (
-      <RouterProvider router={router}/>
+    <Routes>
+      <Route exact path="/" element={<Navigation />}>
+        <Route exact path="/" element={<Home />}/>
+      </Route>
+      <Route exact path="/contact-submission" element={<ContactSubmission />}/>
+    </Routes>
   );
 }
 

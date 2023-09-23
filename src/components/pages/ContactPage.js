@@ -11,7 +11,7 @@ export default function ContactPage() {
 
     emailjs.sendForm(process.env.REACT_APP_SERVICE, process.env.REACT_APP_TEMPLATE, form.current, process.env.REACT_APP_PUBLIC_KEY)
       .then((result) => {
-        window.location.replace("/contact-submission");
+        window.location.replace("https://zdigness.github.io/portfolio/#/contact-submission");
       }, (error) => {
           console.log(error.text);
       });

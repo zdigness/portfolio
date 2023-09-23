@@ -11,7 +11,7 @@ export default function ContactSubmission() {
                 <img src={checkmark} alt="Icon"></img>
                 </div>
                 <h2 className="received">Your form has been received and I will get back to you as soon as possible.</h2>
-                <a className="home-link" href="http://localhost:3000">Return Home</a>
+                <a className="home-link" href="https://zdigness.github.io/portfolio/#/">Return Home</a>
             </div>
         </container>
     )
