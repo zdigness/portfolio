@@ -9,7 +9,7 @@ import mysql from '../img/mysql.png'
 
 export default function BasicBox() {
     return (
-        <div className="projects">
+        <div className="projects-container">
             <div className="project-layout">
                 <div className="leftside">
                     <div className="number">
