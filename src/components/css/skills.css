@@ -97,9 +97,9 @@
 .text h1 {
     font-size: 30px;
     font-family: "Poppins", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
-    background: linear-gradient(to right, #3d19dd, #e70707); /* Your gradient colors */
+    background: linear-gradient(to right, #d1b59d, #100c08); /* Your gradient colors */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     /* color: #EAE4D6 */

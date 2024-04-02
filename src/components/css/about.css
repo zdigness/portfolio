@@ -19,6 +19,13 @@
     font-style: normal;
 }
 
+.about h2 {
+    font-size: 30px;
+    background: linear-gradient(to right, #808000, #eaa221); /* Your gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .about li:nth-child(1) {
     display: flex;
     justify-content: center;
@@ -48,7 +55,7 @@
 
 .intro h2 {
     font-family: "Poppins", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -72,13 +79,6 @@ p {
     margin-left: 30px;
     margin-top: 5px;
     color: #FEFAE0;
-}
-
-h2 {
-    font-size: 30px;
-    background: linear-gradient(to right, #3d19dd, #e70707); /* Your gradient colors */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
 }
 
 h3 {
