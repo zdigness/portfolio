@@ -19,30 +19,40 @@ h1 {
 .about-section {
     padding-left: 10%;
     padding-right: 10%;
-    margin-bottom: 10%;
+    padding-bottom: 10%;
     padding-top: 15%;
     scroll-margin-top: 200px;
+    background-color: #cbffcb;
+    width: 150%;
+    border-radius: 0 0 50% 50%;
 }
 
 .skills {
-    width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-bottom: 15%;
+    width: 150%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 15%;
     margin-top: 10%;
     scroll-margin-top: 200px;
+    border-radius: 0 0 50% 50%;
+    background-color: #f9f9f9;
+    z-index: 100;
+
+    position: relative;
+    bottom: -100px;
 }
 
 @media (max-width: 800px) {
     .skills {
-        padding-left: 2%;
-        padding-right: 2%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 }
 
 
 .projects {
-    margin-bottom: 15%;
+    padding-top: 15%;
+    padding-bottom: 10%;
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
@@ -52,6 +62,13 @@ h1 {
     text-align: center;
     color: #FFFFFF;
     scroll-margin-top: 250px;
+    width: 150%;
+    height: 150%;
+
+    background-color: #b0bef0;
+    border-radius: 0 0 50% 50%;
+    border-top-left-radius: -50%;
+    border-top-right-radius: -50%;
 }
 
 .contact {
@@ -104,10 +121,14 @@ h1 {
 
 .project-title {
     font-size: 30px;
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: underline;
-    text-decoration-color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     text-underline-offset: 10px;
+    padding-bottom: 40px;
+    background: linear-gradient(to right, #3d19dd, #e70707); /* Your gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
 }
 
 .project-p {

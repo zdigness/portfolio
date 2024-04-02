@@ -13,21 +13,23 @@
   color: black;
   }
 
-.navbar a:hover {
-  color: white;
-}
-
 .link {
   background-image: linear-gradient(black, black);
-  background-size: 0 100%;
+  background-size: 0% 0%;
+  background-position: bottom;
   background-repeat: no-repeat;
   transition: .4s;
   padding-left: 5px;
   padding-right: 5px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .link:hover {
-  background-size: 100% 100%;
+  background-size: 100% 3px;
+  background-position: bottom;
 }
 
 @media (max-width: 575px) {

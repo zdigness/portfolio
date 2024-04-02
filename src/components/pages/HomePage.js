@@ -27,20 +27,20 @@ export default function Home() {
 
     return (
         <container class="main">
-            <div class="about-section hidden" id="about">
+            <div class="about-section" id="about">
                 <AboutMe></AboutMe>
             </div>
-            <div class="skills hidden" id="skills">
+            <div class="skills" id="skills">
+                <div className="skills-o"></div>
                 <Skills></Skills>
             </div>
-            <div class="projects hidden" id="projects">
-                <h1 class="project-title">My Work</h1>
-                <p className="project-p">Projects I have developed and maintained.</p>
+            <div class="projects" id="projects">
+                <h1 class="project-title">Projects I have developed and maintained.</h1>
                 <div class="project-grid">
                     <li><ProjectBox className="box"></ProjectBox></li>
                 </div>
             </div>
-            <div class="contact hidden" id="contact">
+            <div class="contact" id="contact">
                 <ContactForm></ContactForm>
             </div>
         </container>

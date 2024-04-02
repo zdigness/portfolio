@@ -11,6 +11,12 @@
     justify-content: center;
     flex-direction: column;
     gap: 50px;
+
+    font-size: 16px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .about li:nth-child(1) {
@@ -40,6 +46,12 @@
     gap: 20px;
 }
 
+.intro h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
 @media screen and (max-width: 768px) {
     .intro {
         font-size: 10px;
@@ -47,12 +59,11 @@
 }
 
 .about-s {
-    border-style: solid;
-    border-color: #45462A;
     border-radius: 10px;
-    background-color: #606C38;
+    background-color: #374f2f;
     max-width: 600px;
     width: 100%;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5); 
 }
 
 p {
@@ -63,9 +74,17 @@ p {
     color: #FEFAE0;
 }
 
+h2 {
+    font-size: 30px;
+    background: linear-gradient(to right, #3d19dd, #e70707); /* Your gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
 h3 {
     margin: 5px;
     margin-left: 30px;
+    margin-top: 10px;
     text-decoration: underline;
     text-decoration-color: #45462A;
     text-underline-offset: 5px;
@@ -78,13 +97,4 @@ h3 {
     justify-content: center;
     align-items: center;
     gap: 20px;
-}
-
-h1 {
-    font-family: 'Open Sans', sans-serif;
-}
-
-h2 {
-    font-size: 30px;
-    font-family: 'Open Sans', sans-serif;
 }

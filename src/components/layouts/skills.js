@@ -16,8 +16,7 @@ export default function EducationPage() {
     return (
       <container class='main-skills'>
         <div className="text">
-        <h1>Skills</h1>
-        <h2>Technologies i've worked with.</h2>
+        <h1>Technologies I work with.</h1>
         </div>
         <div className="education">
           <div className="skill-box">
