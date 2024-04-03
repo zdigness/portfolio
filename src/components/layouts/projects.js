@@ -2,6 +2,7 @@ import React from "react";
 
 import "../css/projects.css"
 
+import puttdle from '../img/puttdle.png'
 import icon from '../img/budget.jpg'
 import django from '../img/django-green.png'
 import python from '../img/python-png.png'
@@ -23,7 +24,7 @@ export default function BasicBox() {
                     </div>
                 </div>
                 <div className="rightside">
-                    <img src={django} alt="Icon"></img>
+                    <img src={puttdle} alt="Icon"></img>
                 </div>
             </div>
         </div>

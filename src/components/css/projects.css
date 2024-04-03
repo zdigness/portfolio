@@ -5,6 +5,8 @@
     align-items: center;
     width: 100%;
     padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .project-layout {
@@ -12,7 +14,7 @@
     grid-template-columns: 1.5fr 1fr;
     justify-items: center;
     align-items: center;
-    grid-column-gap: 16px;
+    grid-column-gap: 30px;
     margin-left: 10%;
     margin-right: 10%;
 
@@ -31,6 +33,10 @@
     overflow: visible;
     width: 100%;
     margin-left: 20%;
+    border-radius: 20px;
+    background-color: #b5bda5;
+    padding: 50px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5); 
 }
 
 .name {
@@ -44,7 +50,10 @@
 }
 
 .name h1 {
-    font-size: 32px;
+    font-size: 40px;
+    font-family: superior-title, serif;
+    font-weight: 400;
+    font-style: bold;
 }
 
 .number {
@@ -57,6 +66,10 @@
 
 .number h2 {
     font-size: 20px;
+    font-family: Pitchsans Regular, sans;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
 }
 
 .description {
@@ -68,15 +81,24 @@
 }
 
 .description p {
-    font-size: 14px;
+    font-size: 16px;
     display: flex;
     margin: 0;
-}
-
-h1,
-h2,
-p {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
+    color: black;
+}
+
+.rightside {
+    justify-self: end;
+    margin-right: 10%;
+}
+
+.rightside img {
+    width: auto;
+    height: 493px;
+    border: 4px solid white;
+    border-radius: 32px;
+    box-shadow: 17px 17px 48px white;
 }
