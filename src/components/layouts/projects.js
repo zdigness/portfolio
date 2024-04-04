@@ -8,23 +8,23 @@ import django from '../img/django-green.png'
 import python from '../img/python-png.png'
 import mysql from '../img/mysql.png'
 
-export default function BasicBox() {
+export default function BasicBox({ number, name, description, image }) {
     return (
         <div className="projects-container">
             <div className="project-layout">
                 <div className="leftside">
                     <div className="number">
-                        <h2>01</h2>
+                        <h2>{number}</h2>
                     </div>
                     <div className="name">
-                        <h1>Puttdle</h1>
+                        <h1>{name}</h1>
                     </div>
                     <div className="description">
-                        <p>2D Daily Golf Game</p>
+                        <p>{description}</p>
                     </div>
                 </div>
                 <div className="rightside">
-                    <img src={puttdle} alt="Icon"></img>
+                    <img src={image} alt="Icon"></img>
                 </div>
             </div>
         </div>
