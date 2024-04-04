@@ -7,6 +7,7 @@ import ContactForm from "../layouts/contact"
 import { useEffect } from "react"
 
 import puttdle from '../img/puttdle.png'
+import finance from '../img/finance_2.png'
 
 export default function Home() {
     useEffect(() => {
@@ -40,7 +41,7 @@ export default function Home() {
                 <h1 class="project-title">Projects I have developed and maintained.</h1>
                 <div class="project-grid">
                     <li><ProjectBox className="box" number="01" name="Puttdle" description="A 2D daily golf game that updates with a new course every day." image={puttdle}></ProjectBox></li>
-                    <li><ProjectBox className="box" number="02" name="Budget Tracker" description="A budget tracking application with goal setting, and timeline data + visualization." image={puttdle}></ProjectBox></li>
+                    <li><ProjectBox className="box" number="02" name="Budget Tracker" description="A budget tracking application with goal setting, and timeline data + visualization." image={finance}></ProjectBox></li>
                 </div>
             </div>
             <div class="contact" id="contact">
