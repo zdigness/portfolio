@@ -6,8 +6,8 @@ import Skills from "../layouts/skills"
 import ContactForm from "../layouts/contact"
 import { useEffect } from "react"
 
-import puttdle from '../img/puttdle.png'
-import finance from '../img/finance_2.png'
+import puttdle from '../img/putt_2.png'
+import finance from '../img/fin_2.png'
 
 export default function Home() {
     useEffect(() => {
