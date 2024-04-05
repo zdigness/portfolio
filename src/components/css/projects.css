@@ -102,3 +102,35 @@
     border-radius: 32px;
     box-shadow: 17px 17px 48px white;
 }
+
+@media (max-width: 950px) {
+    .project-layout {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .rightside {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0%;
+    }
+
+    .leftside {
+        margin-left: 0%;
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .leftside {
+        width: 40%;
+    }
+    
+    .leftside h1 {
+        text-align: left;
+    }
+}

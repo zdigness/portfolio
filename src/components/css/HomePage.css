@@ -17,10 +17,7 @@ h1 {
 }
 
 .about-section {
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 10%;
-    padding-top: 14%;
+    padding: 200px;
     scroll-margin-top: 200px;
     background-color: #5b705a;
     width: 150%;
@@ -31,7 +28,7 @@ h1 {
     width: 170%;
     padding-left: 45%;
     padding-right: 45%;
-    padding-bottom: 15%;
+    padding-bottom: 250px;
     margin-top: 7%;
     scroll-margin-top: 200px;
     border-radius: 0 0 50% 50%;
@@ -42,17 +39,10 @@ h1 {
     bottom: -150px;
 }
 
-@media (max-width: 800px) {
-    .skills {
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-}
-
 
 .projects {
-    padding-top: 20%;
-    padding-bottom: 14%;
+    padding-top: 400px;
+    padding-bottom: 250px;
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
@@ -72,15 +62,8 @@ h1 {
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
-    margin-top: 2%;
-    margin-bottom: 7%;
-}
-
-@media (max-width: 800px) {
-    .contact {
-        padding-left: 2%;
-        padding-right: 2%;
-    }
+    margin-top: 100px;
+    padding-bottom: 125px;
 }
 
 .project-grid a {
@@ -151,4 +134,66 @@ h1 {
     width: 100%;
     margin-left: 40px;
     margin-right: 40px;
+}
+
+@media (max-width: 1230px) {
+    .about-section {
+        width: 200%;
+    }
+
+    .skills {
+        width: 200%;
+        padding-left: 60%;
+        padding-right: 60%;
+    }
+
+    .projects {
+        width: 300%;
+    }
+}
+
+@media (max-width: 900px) {
+    .about-section {
+        width: 250%;
+    }
+
+    .skills {
+        width: 250%;
+        padding-left: 80%;
+        padding-right: 80%;
+    }
+
+    .projects {
+        width: 400%;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .contact {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-title {
+        width: 500px;
+    }
+}
+
+@media (max-width: 500px) {
+    .about-section {
+        width: 300%;
+    }
+
+    .skills {
+        width: 300%;
+        padding-left: 100%;
+        padding-right: 100%;
+    }
+
+    .projects {
+        width: 450%;
+    }
 }
