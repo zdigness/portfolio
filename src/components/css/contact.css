@@ -58,6 +58,11 @@ form {
     text-decoration: none;
     --bs-btn-active-bg: #45462A;
     --bs-btn-active-border-color: #45462A;
+
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .submit-button:hover {
@@ -93,4 +98,11 @@ form {
     .message-input {
         width: 70%;
     }
+}
+
+h1 {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
