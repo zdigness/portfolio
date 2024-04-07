@@ -1,9 +1,7 @@
 import React from "react";
 import github from '../img/github.svg'
 import linkedin from '../img/linkedin.svg'
-
 import "../css/about.css"
-import uofs from '../img/uofs.png'
 
 export default function AboutPage() {
   return (

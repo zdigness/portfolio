@@ -101,6 +101,7 @@
     font-style: normal;
     background: linear-gradient(to right, #d1b59d, #100c08); /* Your gradient colors */
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent; 
     /* color: #EAE4D6 */
 }

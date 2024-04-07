@@ -1,6 +1,5 @@
 import emailjs from '@emailjs/browser';
 import React, { useRef } from 'react';
-
 import "../css/contact.css"
 
 export default function ContactPage() {

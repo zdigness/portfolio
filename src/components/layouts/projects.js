@@ -1,14 +1,7 @@
 import React from "react";
-
 import "../css/projects.css"
 
-import puttdle from '../img/puttdle.png'
-import icon from '../img/budget.jpg'
-import django from '../img/django-green.png'
-import python from '../img/python-png.png'
-import mysql from '../img/mysql.png'
-
-export default function BasicBox({ number, name, description, image }) {
+export default function BasicBox({ number, name, description, image, link }) {
     return (
         <div className="projects-container">
             <div className="project-layout">
@@ -24,7 +17,9 @@ export default function BasicBox({ number, name, description, image }) {
                     </div>
                 </div>
                 <div className="rightside">
+                    <a href={link} target="_blank" rel="noreferrer">
                     <img src={image} alt="Icon"></img>
+                    </a>
                 </div>
             </div>
         </div>

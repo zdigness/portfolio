@@ -67,9 +67,7 @@ h1 {
 }
 
 .project-grid a {
-    display: grid;
-    justify-items: center;
-    align-items: center;
+    text-decoration: none;
 }
 
 .project-grid li:nth-child(1) {
