@@ -128,10 +128,18 @@
 @media (max-width: 768px) {
     .leftside {
         width: 40%;
+        padding: 30px;
     }
     
     .leftside h1 {
         text-align: left;
+    }
+}
+
+@media (max-width: 390px) {
+    .leftside {
+        width: 35%;
+        padding: 25px;
     }
 }
 
