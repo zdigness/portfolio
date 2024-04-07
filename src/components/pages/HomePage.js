@@ -6,6 +6,9 @@ import Skills from "../layouts/skills"
 import ContactForm from "../layouts/contact"
 import { useEffect } from "react"
 
+import puttdle from '../img/putt_2.png'
+import finance from '../img/fin_2.png'
+
 export default function Home() {
     useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -37,7 +40,8 @@ export default function Home() {
             <div class="projects" id="projects">
                 <h1 class="project-title">Projects I have developed and maintained.</h1>
                 <div class="project-grid">
-                    <li><ProjectBox className="box"></ProjectBox></li>
+                    <li><ProjectBox className="box" number="01" name="Puttdle" description="A 2D daily golf game that updates with a new course every day." image={puttdle} link={'https://github.com/zdigness/puttdle'}></ProjectBox></li>
+                    <li><ProjectBox className="box" number="02" name="Budget Tracker" description="A budget tracking application with goal setting, and timeline data + visualization." image={finance} link={'https://github.com/zdigness/personal_finance'}></ProjectBox></li>
                 </div>
             </div>
             <div class="contact" id="contact">

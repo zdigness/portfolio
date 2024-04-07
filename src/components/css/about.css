@@ -19,6 +19,14 @@
     font-style: normal;
 }
 
+.about h2 {
+    font-size: 30px;
+    background: linear-gradient(to right, #efcc9a, #faa945); /* Your gradient colors */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .about li:nth-child(1) {
     display: flex;
     justify-content: center;
@@ -80,7 +88,6 @@ h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
 }
-
 h3 {
     margin: 5px;
     margin-left: 30px;
@@ -97,4 +104,26 @@ h3 {
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.logo-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+@media (max-width: 700px) {
+    .about-s {
+        width: 70%;
+    }
+
+    .intro {
+        width: 70%;
+    }
 }

@@ -11,6 +11,9 @@ import database from '../img/database.png'
 import mongodb from '../img/mongodb.png'
 import mysql from '../img/mysql.png'
 import node from '../img/node.png'
+import ts from '../img/ts.png'
+import postgres from '../img/postgres.png'
+import aws from '../img/aws.png'
 
 export default function EducationPage() {
     return (
@@ -35,7 +38,10 @@ export default function EducationPage() {
             </div>
             <li><img class="skill-icon" src={python} alt="Icon"></img></li>
             <li><img class="skill-icon" src={js} alt="Icon"></img></li>
+            <li><img class="skill-icon" src={ts} alt="Icon"></img></li>
             <li><img class="skill-icon" src={node} alt="Icon"></img></li>
+            <li><img class="skill-icon" src={aws} alt="Icon"></img></li>
+
           </div>
           <div className="skill-box-3">
           <div class="skill-section-disc">
@@ -44,6 +50,7 @@ export default function EducationPage() {
             </div>
             <li><img class="skill-icon" src={mongodb} alt="Icon"></img></li>
             <li><img class="skill-icon" src={mysql} alt="Icon"></img></li>
+            <li><img class="skill-icon" src={postgres} alt="Icon"></img></li>
           </div>
         </div>
       </container>
