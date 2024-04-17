@@ -1,14 +1,12 @@
 # Project
 
-A Django-powered web application to help you track your income, and expenses, create budgets, and visualize your financial health.
+A personal portfolio demonstrating my capabilities and experience as a software engineer.
 
 # Features
 
-Expense Tracking: Log income and expenses with detailed descriptions and categorization.
+Skills: Description of my technical skills.
 
-Budgeting: Set budgets for different categories and track progress over time.
-
-Financial Reporting: Generate charts and reports to visualize spending patterns, net worth, and progress toward financial goals.
+Projects: Highlight projects I have developed.
 
 # Technologies
 
