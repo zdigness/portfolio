@@ -14,9 +14,6 @@ Financial Reporting: Generate charts and reports to visualize spending patterns,
 
 * [![React][React.js]][React-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JavaScript][JavaScript-img]][JavaScript-url]
-* [![HTML][HTML-img]][HTML-url]
-* [![CSS][CSS-img]][CSS-url]
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -37,9 +34,3 @@ Financial Reporting: Generate charts and reports to visualize spending patterns,
 [React-url]: https://reactjs.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
-[JavaScript-img]:  https://img.shields.io/badge/logo-javascript-blue?logo=javascript
-[Javascript-url]: 
-[HTML-img]:
-[HTML-url]:
-[CSS-img]:
-[CSS-url]:
