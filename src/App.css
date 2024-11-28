@@ -1,7 +1,10 @@
 body {
-    margin: 0;
-    background-color: #f9f9f9;
-    overflow-x: hidden;
+	margin: 0;
+	height: 100%;
+	background-color: #111111;
+	opacity: 1;
+	background-image: radial-gradient(#484848 1.5px, transparent 1.5px),
+		radial-gradient(#484848 1.5px, #111111 1.5px);
+	background-size: 60px 60px;
+	background-position: 0 0, 30px 30px;
 }
-
-
