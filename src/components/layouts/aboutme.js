@@ -22,8 +22,9 @@ export default function AboutMe() {
 							full-stack applications.
 						</span>
 					</div>
+					{/* change to /zdigness_cv.pdf in development */}
 					<a
-						href='/zdigness_cv.pdf'
+						href='/portfolio/zdigness_cv.pdf'
 						download='Zoli_Digness_Resume'
 						className='flex items-center justify-center w-28 px-6 py-3 bg-[#2B2B2B] text-white font-semibold text-md rounded-lg shadow-md hover:bg-[#1C1C1C] transition duration-200'
 					>
